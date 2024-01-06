@@ -6,11 +6,140 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,700;6..12,800;6..12,900&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__content container">
+                <div class="nav__logo">
+                    <img src="./assets/images/Icon%20Logo%20Normal.svg" alt="logo" class="logo__image">
+                    <span class="logo__text logo__text--first-part">CAR</span>
+                    <span class="logo__text logo__text--second-part">SHARING</span>
+                </div>
+                <div class="nav__list">
+                    <a href="#" class="nav__item">HOME</a>
+                    <a href="#" class="nav__item">BLOG</a>
+                    <a href="#" class="nav__item">SERVICE</a>
+                    <a href="#" class="nav__item">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+        <div class="header__content">
+            <h1 class="header__title">CAR SHARING</h1>
+            <p class="header__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="header__buttons">
+                <a href="" class="header__button button--red">SHARE A CAR</a>
+                <a href="" class="header__button button--white">KEY FEATURES</a>
+            </div>
+        </div>
+        <div class="header__arrow">
+            <img src="./assets/images/Icon%20Arrow%20Down.svg" alt="arrow-down" class="arrow-icon">
+        </div>
+    </header>
+    <section class="blog">
+        <div class="blog__content container">
+            <h2 class="headline headline--black">blog</h2>
+            <div class="blog__cards">
+                <div class="blog__card">
+                    <div class="blog__card-img blog__card-img--first"></div>
+                    <h3 class="blog__card-title">LOREM IPSUM SIT DOLOR</h3>
+                    <p class="blog__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="" class="blog__card-button button--red">READ MORE</a>
+                </div>
+                <div class="blog__card">
+                    <div class="blog__card-img blog__card-img--second"></div>
+                    <h3 class="blog__card-title">LOREM IPSUM SIT DOLOR</h3>
+                    <p class="blog__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="" class="blog__card-button button--red">READ MORE</a>
+                </div>
+                <div class="blog__card">
+                    <div class="blog__card-img blog__card-img--third"></div>
+                    <h3 class="blog__card-title">LOREM IPSUM SIT DOLOR</h3>
+                    <p class="blog__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="" class="blog__card-button button--red">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="service">
+        <div class="service__content container">
+            <h2 class="headline headline--white">SERVICE</h2>
+            <div class="service__cards">
+                <div class="service__card">
+                    <div class="service__card-img service__card-img--first"></div>
+                    <h3 class="service__card-title">LOREM IPSUM SIT DOLOR</h3>
+                    <p class="service__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a href="" class="service__card-button button--red">READ MORE</a>
+                </div>
+                <div class="service__card">
+                    <div class="service__card-img service__card-img--second"></div>
+                    <h3 class="service__card-title">LOREM IPSUM SIT DOLOR</h3>
+                    <p class="service__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a href="" class="service__card-button button--red">READ MORE</a>
+                </div>
+                <div class="service__card">
+                    <div class="service__card-img service__card-img--third"></div>
+                    <h3 class="service__card-title">LOREM IPSUM SIT DOLOR</h3>
+                    <p class="service__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a href="" class="service__card-button button--red">READ MORE</a>
+                </div>
+                <div class="service__card">
+                    <div class="service__card-img service__card-img--fourth"></div>
+                    <h3 class="service__card-title">LOREM IPSUM SIT DOLOR</h3>
+                    <p class="service__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a href="" class="service__card-button button--red">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="contact">
+        <h2 class="headline headline--black">CONTACT</h2>
+        <div class="contact__content container">
+            <div class="contact__img"></div>
+            <div class="contact__form">
+                <form action="">
+                    <input type="text" placeholder="Type your name">
+                    <input type="text" placeholder="Type your email">
+                    <textarea cols="30" rows="6" placeholder="Type your message"></textarea>
+                    <label class="form__checkbox">
+                        <input type="checkbox">
+                        <span>
+                            <img src="./assets/images/IconCheck.svg" alt="check">
+                        </span>
+                        I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                    </label>
+                    <a href="" class="form__button button--white">SEND</a>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__content container">
+            <div class="footer__logo">
+                <img src="./assets/images/Logo%20Footer.svg" alt="logo">
+                <span class="footer__logo-text footer__logo-text--first">CAR</span>
+                <span class="footer__logo-text footer__logo-text--second">SHARING</span>
+            </div>
+            <div class="footer__text">
+                <div class="footer__links">
+                    <a href="#" class="footer__link">HOME PAGE</a>
+                    <a href="#" class="footer__link">ABOUT US</a>
+                    <a href="#" class="footer__link">GALLERY</a>
+                    <a href="#" class="footer__link">SHARE REGULATION</a>
+                    <a href="#" class="footer__link">PRICE</a>
+                    <a href="#" class="footer__link">OUR FLEET</a>
+                    <a href="#" class="footer__link">OUR CLIENTS</a>
+                    <a href="#" class="footer__link">CONTACT</a>
+                </div>
+                <span class="footer__copyright">Copyright © Coders Lab</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
